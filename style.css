@@ -1,12 +1,56 @@
-ul > li > a{
-  text-decoration: none;
-  
-}
-li{
-  list-style: none;
+/* nav decoration */
 
-}
-
-.header > li > a{
+nav {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* font style korechi */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Wix Madefor Text', sans-serif;
+}
+
+/* heading color font fix */
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+
+}
+
+.orange-color {
+  color: #FD6E0A;
+}
+
+/* list flex korechi */
+
+nav>ul {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+
+nav li {
+  list-style: none;
+  padding-right: 55px;
+}
+
+/* button kaj korechi */
+
+.btn-primary {
+  width: 150px;
+  height: 64px;
+  background-color: #FD6E0A;
+  border-radius: 10px;
+  border: #FD6E0A;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
 }
