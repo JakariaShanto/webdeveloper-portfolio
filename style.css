@@ -4,6 +4,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 0 200px;
 }
 
 /* font style korechi */
@@ -17,10 +18,17 @@ body {
 .nav-title {
   color: #181818;
   font-size: 45px;
-  font-weight: 800;
+  font-weight: 700;
 
 }
+/* header color korechi */
+.header{
+  background: #FFF8F3;
+}
 
+
+
+/* span color korechi */
 .orange-color {
   color: #FD6E0A;
 }
@@ -29,6 +37,7 @@ body {
 
 nav>ul {
   display: flex;
+  align-items: center;
 }
 
 nav a {
@@ -54,3 +63,10 @@ nav li {
   font-weight: 700;
   padding: 15px 35px;
 }
+/* herder sectionn er banner er kaj korechi */
+.banner{
+  padding: 30px 30px 30px 430px;
+}
+
+
+/* button div flex marbo */
