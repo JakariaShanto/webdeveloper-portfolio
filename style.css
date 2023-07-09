@@ -6,6 +6,7 @@ nav {
   justify-content: space-around;
   margin: 0 200px;
 }
+/* nav e halka border */
 
 /* font style korechi */
 body {
@@ -24,6 +25,10 @@ body {
 /* header color korechi */
 .header{
   background: #FFF8F3;
+  background-image: url(/portfolio-resources/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  
 }
 
 
@@ -57,16 +62,63 @@ nav li {
   height: 64px;
   background-color: #FD6E0A;
   border-radius: 10px;
-  border: #FD6E0A;
+  border: 0;
   color: white;
   font-size: 20px;
   font-weight: 700;
-  padding: 15px 35px;
+  padding: 15px 3px;
 }
 /* herder sectionn er banner er kaj korechi */
 .banner{
-  padding: 30px 30px 30px 430px;
+  padding: 30px 30px 0px 430px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
-/* button div flex marbo */
+/* My image*/
+.banner .profile{
+  width: 500px;
+  
+}
+
+/* margin padding thik kortasi */
+.banner-greeting{
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+
+.main-banner{
+  margin-top: 5px;
+}
+.banner-content{
+  max-width: 500px;
+}
+
+
+
+/* main section style */
+.section-title{
+  color: #181818;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.section-description{
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* about section style */
+
+.about{
+  padding: 130px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  margin-top: 130px 0px ;
+}
+
