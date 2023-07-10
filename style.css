@@ -70,7 +70,8 @@ nav li {
   font-weight: 700;
   padding: 15px 3px;
 }
-.download-cv{
+
+.download-cv {
   text-align: center;
   margin-top: 50px;
 
@@ -200,7 +201,7 @@ main section {
   margin-bottom: 10px;
 }
 
-.resume-item-instituate{
+.resume-item-instituate {
   margin-bottom: 20px;
   margin-top: 10px;
 
@@ -212,12 +213,12 @@ main section {
 
 }
 
-.resume-container hr{
+.resume-container hr {
   margin: 30px;
 }
 
 /* footer section style */
-footer{
+footer {
   display: flex;
   gap: 100px;
   background: #ffffff;
@@ -226,12 +227,12 @@ footer{
 }
 
 
-.footer-colum{
+.footer-colum {
   width: 50%;
 }
 
-.contact input[type="text"], .contact input[type="email"]
- textarea{
+.contact input[type="text"],
+.contact input[type="email"] textarea {
   display: block;
   margin-bottom: 24px;
   padding: 18px 35px;
@@ -242,7 +243,4 @@ footer{
   width: 100%;
 }
 
-.contact input{
-
-}
-
+.contact input {}
