@@ -6,6 +6,7 @@ nav {
   justify-content: space-around;
   margin: 0 200px;
 }
+
 /* nav e halka border */
 
 /* font style korechi */
@@ -22,13 +23,14 @@ body {
   font-weight: 700;
 
 }
+
 /* header color korechi */
-.header{
+.header {
   background: #FFF8F3;
   background-image: url(/portfolio-resources/images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
-  
+
 }
 
 
@@ -68,8 +70,14 @@ nav li {
   font-weight: 700;
   padding: 15px 3px;
 }
+.download-cv{
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
 /* herder sectionn er banner er kaj korechi */
-.banner{
+.banner {
   padding: 30px 30px 0px 430px;
   display: flex;
   align-items: center;
@@ -78,22 +86,23 @@ nav li {
 
 
 /* My image*/
-.banner .profile{
+.banner .profile {
   width: 500px;
-  
+
 }
 
 /* margin padding thik kortasi */
-.banner-greeting{
+.banner-greeting {
   font-size: 45px;
   color: #474747;
   margin-bottom: 0;
 }
 
-.main-banner{
+.main-banner {
   margin-top: 5px;
 }
-.banner-content{
+
+.banner-content {
   max-width: 500px;
 }
 
@@ -101,63 +110,111 @@ nav li {
 
 /* main section style */
 
-main{
+main {
   max-width: 1140px;
   margin: 0 auto;
 }
-main section{
+
+main section {
   margin-top: 130px;
 }
 
-.about-info-container{
+.about-info-container {
   display: flex;
   justify-content: space-between;
 }
-.about-info{
+
+.about-info {
   text-align: center;
 }
+
 /* about section style */
 
-.about{
+.about {
   padding: 130px;
   background-color: antiquewhite;
   border-radius: 10px;
-  margin: 130px 0px ;
+  margin: 130px 0px;
 }
 
-.section-title{
+.section-title {
   color: #181818;
   text-align: center;
   font-weight: 700;
   font-size: 35px;
 }
 
-.section-description{
+.section-description {
   color: #757575;
   text-align: center;
   font-size: 18px;
 }
+
 /* What i do section */
 
-.what-i-do-section{
+.what-i-do-section {
   text-align: center;
   max-width: 1140px;
 }
-#what-i-do-description{
+
+#what-i-do-description {
   padding: 30px 150px;
 }
+
 /* skills related styles */
-.skills-container{
+.skills-container {
   display: flex;
   gap: 24px;
 }
 
-.skill{
+.skill {
   padding: 30px;
   border-radius: 5px;
   background: #ffffff;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); 
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.skill-description{
+
+.skill-description {
   color: gray;
 }
+
+
+/* resume summary styles */
+
+.resume-colum-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700px;
+
+}
+
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+
+.resume-item-title {
+  color: #757575;
+  font-size: 25px;
+  font-weight: 700px;
+  margin-bottom: 10px;
+}
+
+.resume-item-instituate{
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+}
+
+.resume-item-instituate,
+.resume-item-description {
+  color: #757575;
+
+}
+
+.resume-container hr{
+  margin: 30px;
+
+
+}
+
